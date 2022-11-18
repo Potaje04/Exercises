@@ -1,7 +1,8 @@
+Respuesta 7
    @Override
 public void putToCache(PutRecordsRequest putRecordsRequest){
 
-if(dataTmpFile == null || !dataTmpFile.exists()){
+if(!dataTmpFile.exists()){
 
 try{
 

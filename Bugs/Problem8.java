@@ -1,6 +1,7 @@
 package Problem8;
-void shiftRightDestructive (int wordShifts, int bitShiftsInWord, boolean roundUp) {
-	if (wordShifts == 0 && bitShiftsInWord == 0) {
+
+private void shiftRightDestructive (int wordShifts, int bitShiftsInWord, boolean roundUp) {
+	if (wordShifts == 0 || bitShiftsInWord == 0) {
 		return;
 	}
 }

@@ -7,7 +7,7 @@
 			stateSize == that.stateSize && 
 			duration == that.duration && 
 			alignmentBuffered == that.alignmentBuffered && 
-			processedData == processedData && 
+			processedData == that.processedData && 
 			persistedData == that.persistedData && 
 			numsubtasks == that.numSubtasks && 
 			numAckSubtasks == that.numAckSubtasks && 
